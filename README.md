@@ -1,6 +1,8 @@
 # test-project
 
-> A Vue.js project
+> A pet shop gallery created using vue.js.
+
+@Vue Vixens Workshop
 
 ## Build Setup
 

@@ -1,4 +1,4 @@
-# test-project
+# Pet Shop Web App
 
 > A pet shop gallery created using vue.js.
 

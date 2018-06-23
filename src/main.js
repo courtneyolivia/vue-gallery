@@ -4,8 +4,17 @@ import Vue from "vue";
 import App from "./App";
 import Vuetify from "vuetify";
 import VueRouter from "vue-router";
+import Home from "./views/Home";
+import Pets from "./views/Pets";
 
 Vue.use(Vuetify);
+
+const router = new VueRouter({ routes });
+
+const routes = [
+  { path: "/", component: Home },
+  { path: "/pets", component: Pets }
+];
 
 Vue.config.productionTip = false;
 
@@ -13,5 +22,6 @@ Vue.config.productionTip = false;
 new Vue({
   el: "#app",
   components: { App },
-  template: "<App/>"
+  template: "<App/>",
+  router
 });

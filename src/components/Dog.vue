@@ -12,4 +12,11 @@
 </template>
 	
 <script>
+export default {
+  props: {
+    dog: {
+      type: Object
+    }
+  }
+};
 </script>

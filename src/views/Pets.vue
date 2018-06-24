@@ -18,6 +18,13 @@
 
 <script>
 import { Dogs } from "../data/dogs";
+export default {
+  data() {
+    return {
+      dogs: Dogs
+    };
+  }
+};
 </script>
 
 <style scoped>

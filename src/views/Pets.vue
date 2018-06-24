@@ -16,6 +16,10 @@
   </v-container>
 </template>
 
+<script>
+import { Dogs } from "../data/dogs";
+</script>
+
 <style scoped>
 p {
   margin: 0;

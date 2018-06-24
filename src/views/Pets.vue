@@ -3,7 +3,7 @@
     <v-layout wrap>
       <v-flex xs12 sm4 md3 v-for="pet in dogs" :key="pet.breed">
         <v-card color="grey lighten-2">
-          <v-card-media src="https://goo.gl/6CQNDo" height="170px">
+          <v-card-media :src="pet.img" height="170px">
           </v-card-media>
           <v-card-title>
             <div>
